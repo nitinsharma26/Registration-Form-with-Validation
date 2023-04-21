@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    padding: 100px 300px 50px 300px;
+    margin: 10vh 40vh;   
+    border-radius: 1300px;
+    font-size: 3vh; 
+    background-color: blueviolet;
+    
+}
+
+#msg1,#msg2,#msg3,#msg4,#msg5{
+    color: red;   
+    font-size: small;
+}
+marquee{
+    font-size: xx-large;
+    margin-top: 45vh;
+    background-color: blueviolet;
+}
+
+#submit{
+    margin-left: 120px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: brown;
+    color: azure;
+} 
+
+h1{
+    font-size: 10vh;
+    margin-left: 60vh;
+}

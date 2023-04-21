@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <div>
+        <form action="home.html" onsubmit="return validation()">
+            
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" id="un" value=""></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><span id="msg1"></span></th>
+                </tr>
+
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="pass1" value=""></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><span id="msg2"></span></th>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password" id="pass2" value=""> </td>
+                </tr>
+                <tr>
+                    <th colspan="2"><span id="msg3"></span></th>
+                </tr>
+
+                <tr>
+                    <td> Email:</td>
+                    <td><input type="text" id="email" value=""> </td>
+                </tr>
+                <tr>
+                    <th colspan="2"><span id="msg4"></span></th>
+                </tr>
+
+                <tr>
+                    <td> Mobile Number:</td>
+                    <td><input type="text" id="mob" value=""></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><span id="msg5"></span></th>
+                </tr>
+                
+            </table>
+
+            <input id = "submit" type="submit" value ="Register Me">
+                
+
+        </form>
+
+    </div>
+    <script src="app.js"></script> 
+
+
+</body>
+</html>
