@@ -32,16 +32,21 @@ function validation(){
         }
     }
    
+    msg1.innerHTML = "";
 
     if(pass1.length == 0){
         msg2.innerHTML="*password can't be empty";
         return false;
     }
 
+    msg2.innerHTML = "";
+
     if(pass1 != pass2){
         msg3.innerHTML = "*password doesn't match";
         return false;
     }
+
+    msg3.innerHTML = "";
 
     if(email.indexOf('@')==0){
         msg4.innerHTML = "*email should contain alphabet before @";
@@ -58,6 +63,8 @@ function validation(){
         return false;
     }
 
+    msg4.innerHTML = "";
+
     for(let i = 0;i < mob.length ;i++){
         if(mob.charAt(i)>='0' && mob.charAt(i)<='9'){
             continue;
@@ -71,6 +78,6 @@ function validation(){
         msg5.innerHTML = "number of digit should be 8 to 12 digits";
         return false;
     }
-
     
+    msg5.innerHTML = "";    
 }
