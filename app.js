@@ -79,7 +79,5 @@ function validation(){
         return false;
     }
     
-    msg5.innerHTML = "";
-
-    
+    msg5.innerHTML = "";    
 }
